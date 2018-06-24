@@ -1,0 +1,17 @@
+{
+  "name": "technewscrawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^5.0.0",
+    "scraperjs": "^1.2.0",
+    "underscore": "^1.9.1"
+  }
+}
