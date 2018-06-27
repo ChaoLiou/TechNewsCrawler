@@ -123,7 +123,7 @@ function inside(index, element, $) {
 
 function bnext(index, element, $) {
     const $this = $(element);
-    const $title = $this.find('a');
+    const $title = $this.find('a .item_title');
     const titleText = $title.text();
     if (titleText) {
         return {
@@ -180,5 +180,5 @@ module.exports = {
     scrape: scrape,
     getInfo: getInfo,
     date: _date,
-    targes: ['technews', 'techorange', 'ithome', 'inside', 'bnext', 'kopu']
+    targets: ['technews', 'techorange', 'ithome', 'inside', 'bnext', 'kopu']
 };

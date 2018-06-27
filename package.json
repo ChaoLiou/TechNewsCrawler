@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node crawl.js && node process.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "args": "^5.0.0",
+    "nodejieba": "^2.2.6",
     "scraperjs": "^1.2.0",
     "underscore": "^1.9.1"
   }
